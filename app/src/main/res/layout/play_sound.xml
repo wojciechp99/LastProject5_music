@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.LastProject5_music.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.LastProject5_music.AppWidgetContainer">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/start_sound" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="@string/stop_sound" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="@string/next_sound" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:text="@string/pause_sound" />
+
+    <Button
+        android:id="@+id/resumeButton"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:text="@string/resume_sound" />
+
+</RelativeLayout>
